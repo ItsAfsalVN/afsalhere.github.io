@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+/* Custom fonts */
+@font-face {
+  font-family: "Movatif";
+  src: url("/fonts/Movatif LT.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Movatif";
+  src: url("/fonts/Movatif RG.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Movatif";
+  src: url("/fonts/Movatif BL.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Movatif";
+  src: url("/fonts/Movatif BK.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Movatif";
+  src: url("/fonts/Movatif HV.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* CSS variables for colors */
+:root {
+  --color-primary: #000000;
+  --color-secondary: #fffdd0;
+  --border-primary: #000000;
+  --border-secondary: #fffdd0;
+}
+
+/* Tailwind theme extensions using @layer */
+@layer base {
+  :root {
+    --font-movatif: "Movatif", sans-serif;
+  }
+
+  body {
+    font-family: var(--font-movatif);
+  }
+}
+
+@layer utilities {
+  .font-movatif {
+    font-family: var(--font-movatif);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+}
+
+@keyframes scroll {
+    0% { 
+        transform: translateX(0); 
+    }
+    100% { 
+        transform: translateX(-33.333%); 
+    }
+}
+
+.animate-scroll {
+    animation: scroll 15s linear infinite;
+}
