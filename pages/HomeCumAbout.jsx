@@ -32,7 +32,7 @@ function HomeCumAbout() {
           DOWN
         </span>
         <img
-          src="/icons/bottomArrow.svg"
+          src="./icons/bottomArrow.svg"
           alt=""
           className="w-[20px] md:w-[24px] xl:w-[32px] aspect-square animate-bounce"
         />
@@ -40,12 +40,12 @@ function HomeCumAbout() {
 
       {/* Hero Image */}
       <img
-        src="../dist/images/HeroImage.png"
+        src="./images/HeroImage.png"
         alt="HeroImage"
         className="absolute bottom-0 left-0 w-screen md:hidden"
       />
       <img
-        src="/images/HeroImageAlt.png"
+        src="./images/HeroImageAlt.png"
         alt="HeroImage"
         className="hidden absolute bottom-0 left-0  md:block md:w-[90%] lg:w-[75%] xl:w-auto md:left-1/2 md:-translate-x-1/2 xl:-translate-x-1/4 md:aspect-square md:object-cover "
       />
@@ -54,7 +54,7 @@ function HomeCumAbout() {
       <button className=" absolute bottom-[64px] md:bottom-1 right-0 rounded-[6px] px-2 py-3 md:px-3 xl:px-4 bg-secondary text-primary flex justify-center items-center gap-[10px]">
         <span className="text-[17px] md:text-[22px] xl:text-[30px]">DOWNLOAD CV</span>
         <img
-          src="../dist/icons/bottomRightArrow.svg"
+          src="./icons/bottomRightArrow.svg"
           alt=""
           className="w-[18px] md:w-[21px] aspect-square"
         />

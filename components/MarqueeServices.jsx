@@ -10,7 +10,7 @@ function MarqueeServices() {
                 {services.map((service, index) => (
                     <div className='flex gap-6 flex-shrink-0' key={`first-${index}`}>
                         <span className='whitespace-nowrap'>{service}</span>
-                        <img src="../dist/icons/divider.svg" alt="" className='w-[10px] aspect-square flex-shrink-0' />
+                        <img src="./icons/divider.svg" alt="" className='w-[10px] aspect-square flex-shrink-0' />
                     </div>
                 ))}
                 
@@ -18,7 +18,7 @@ function MarqueeServices() {
                 {services.map((service, index) => (
                     <div className='flex gap-6 flex-shrink-0' key={`second-${index}`}>
                         <span className='whitespace-nowrap'>{service}</span>
-                        <img src="../dist/icons/divider.svg" alt="" className='w-[10px] aspect-square flex-shrink-0' />
+                        <img src="./icons/divider.svg" alt="" className='w-[10px] aspect-square flex-shrink-0' />
                     </div>
                 ))}
                 
@@ -26,7 +26,7 @@ function MarqueeServices() {
                 {services.map((service, index) => (
                     <div className='flex gap-6 flex-shrink-0' key={`third-${index}`}>
                         <span className='whitespace-nowrap'>{service}</span>
-                        <img src="../dist/icons/divider.svg" alt="" className='w-[10px] aspect-square flex-shrink-0' />
+                        <img src="./icons/divider.svg" alt="" className='w-[10px] aspect-square flex-shrink-0' />
                     </div>
                 ))}
             </div>

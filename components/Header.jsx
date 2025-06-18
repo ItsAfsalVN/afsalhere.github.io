@@ -31,7 +31,7 @@ function Header({ isOpen, setIsOpen }) {
 
   return (
     <div className={`fixed top-0 left-0 z-[100] right-0 z-50  px-[24px] xl:px-[200px] pt-[32px] flex justify-between items-center transition-transform duration-300 ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
-      <img src="../dist/logo.svg" alt="logo" className="w-[100px] xl:w-[120px] h-auto" />
+      <img src="logo.svg" alt="logo" className="w-[100px] xl:w-[120px] h-auto" />
       <Hamburger isOpen={isOpen} setIsOpen={setIsOpen} />
      <TopNav/>
     </div>
