@@ -42,7 +42,7 @@ function HomeCumAbout() {
       <img
         src="./images/HeroImage.png"
         alt="HeroImage"
-        className="absolute bottom-0 left-0 w-screen md:hidden"
+        className="absolute bottom-0 left-0 h-screen object-cover object-[center_30px] md:hidden"
       />
       <img
         src="./images/HeroImageAlt.png"
